@@ -7,14 +7,59 @@
 </head>
 <body>
     <h1>IamNEO's CODE REVIEW</h1>
-    <p> <bold>Sign up for our NewsLetter </bold></p>
+    <p> <Strong>Sign up for our Newsletter</Strong> </p>
     <p>Get the latest news on how your code is doing right in your inbox</p>
-
     <form>
-        <label > Full Name</label>
-        <input type="text" id="name" name="user_name" placeholder="required" required>
-        <label>Email</label>
-        <input type="text" id="name" name="user_name" placeholder="required" required>
+    <fieldset>
+        <legend> Contact Information </legend> <br>
+        <label >Full Name</label> <br>
+        <input type="text" id="name" name="user_name" placeholder="required" required> <br>
+        <label >Email Address</label><br>
+        <input type="email" id="email" name="user_mail" placeholder="required" required><br>
+        <label >Phone Number</label> <br>
+        <input type="text" id="name" name="user_name" placeholder="999999999" required><br>
+        <label >Street Address</label><br>
+        <input type="text" id="name" name="user_name" placeholder="123 Fake Street" required> <br>
+        <label >City</label><br>
+        <input type="text" id="city" name="user_city" placeholder="pune" > <br>
+        <label >State</label><br>
+        <select name="user_state" id="user_state"> <option value="Choose State">Choose State</option></select> <br>
+        <label >Zip Code</label><br> <br>
+        <input type="text" id="name" name="user_zipcode" placeholder="511098" ><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Newsletter</legend> <br>
+        <label class="checkbox-label">Select the newsletter you would like to recieve</label><br>
+        
+        
+        <input type="checkbox" id="html_news" name="html_news" >
+        <label > HTML News</label> <br>
+        
+        <input type="checkbox" id="css_news" name="css_news" >
+        <label > CSS News</label> <br>
+        
+        <input type="checkbox" id="js_news" name="js_news"  >
+        <label > JavaScript News</label><br> <br>
+
+        <label>Newsletter Format </label> <br> <br>
+
+        <input type="radio" id="htmloption" name="html" >
+        <label > HTML</label> <br>
+        
+        <input type="radio" id="htmloption" name="html" >
+        <label > Plain text</label> <br> <br>
+    
+
+        <label>Other topics you would like to hear about </label> <br> <br>
+        <textarea name="desc" id="desc" cols="23" rows="4"></textarea>
+
+    </fieldset>
+    <button type="submit"> Sign Up</button>
     </form>
+    <footer>
+        <p class="footer"> &copy;Copyright Iam NEO's The Code Review </p>
+    </footer>
+
+
 </body>
 </html>
